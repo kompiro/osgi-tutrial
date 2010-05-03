@@ -3,18 +3,23 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to OSGi tutorial's documentation!
-=========================================
+===================================================
+ダイナミックなモジュールシステム、OSGiを始めよう
+===================================================
 
-Contents:
+OSGiはJava/VMのみでは実現できない完全なモジュールシステムを構成するための薄い仕様です。
+
+目次:
 
 .. toctree::
    :maxdepth: 2
+   
+   overview
+   module_system
 
-Indices and tables
+索引や検索
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
