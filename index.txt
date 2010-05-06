@@ -1,0 +1,31 @@
+.. OSGi tutorial documentation master file, created by
+   sphinx-quickstart on Mon May  3 22:27:57 2010.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+===================================================
+ダイナミックなモジュールシステム、OSGiを始めよう
+===================================================
+
+著者:近藤寛喜 kompiro at gmail.com or `@kompiro <http://twitter.org/kompiro>`_ at Twitter
+
+OSGiを一言で言うと、Java/VMのみでは実現できない完全なモジュールシステムを構成するための仕様です。OSGiの仕様、それ自体もモジュールとして分離でき、そのコア部分は27個のクラスのみで定義され、一般的な実装も100kBに満たないなど薄い実装となっています。このドキュメントはOSGiについてほとんど知識のないユーザにとっての最初の一歩になる事を目指して作成しました。フィードバックはぜひTwitterの`@kompiro <http://twitter.org/kompiro>`_までお寄せください。
+
+目次:
+
+.. toctree::
+   :maxdepth: 2
+   
+   10minites
+   overview
+   module_system
+   declarative_services
+   tips
+   
+
+索引や検索
+==================
+
+* :ref:`genindex`
+* :ref:`search`
+
